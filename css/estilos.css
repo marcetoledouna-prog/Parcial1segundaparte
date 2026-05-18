@@ -1,0 +1,331 @@
+body {
+
+      margin: 0;
+
+    font-family: "Arvo", serif;
+
+    background-image: url("../img/fondo.png");
+
+    background-size: cover;
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+}
+
+
+/* CONTENEDOR */
+
+#contenedor {
+
+    width: 100%;
+
+    max-width: 80rem;
+
+    margin: 0 auto;
+
+    background-color: rgba(101, 184, 235, 0.85);
+}
+
+
+/* CABECERA */
+
+.cabecera {
+
+    width: 100%;
+
+    text-align: center;
+
+    padding: 1.25rem 0;
+
+    background-color: rgba(101, 184, 235, 0.85);
+
+    
+}
+
+
+/* TITULO PRINCIPAL */
+
+#uva {
+
+    font-family: "Smythe", serif;
+
+    font-size: 12rem;
+
+    color: #f9f6f7;
+
+    text-align: center;
+
+    margin: 0.5em 0;
+    
+    word-spacing: 2rem; /* Aumenta la separación entre palabras */
+}
+
+
+/* SUBTITULO */
+
+.subtitulo {
+
+    font-family: "Smythe", serif;
+
+    color: #071f19;
+
+    font-size: 2.8rem;
+
+    margin: 0.3em;
+}
+
+
+/* MENU */
+
+.menu {
+
+    padding: 1.5rem 0;
+
+    background-color: rgba(255,255,255,0.25);
+}
+
+.menu ul {
+
+    list-style-type: none;
+
+    padding: 0;
+
+    margin: 2.5rem 0;
+
+    text-align: center;
+}
+
+.menu ul li {
+
+    display: inline-block;
+
+    margin: 0 0.5rem;
+}
+
+.menu ul li a {
+
+    display: block;
+
+    background-color: #053a37ed;
+
+    color: white;
+
+    text-decoration: none;
+
+    padding: 1.4em 3em;
+
+    border-radius: 4em;
+
+    font-size: 1.1rem;
+}
+
+
+
+.menu ul li a:hover {
+
+    background-color: #12eed1;
+
+    color: rgb(12, 12, 12);
+}
+
+.menu ul li a:active {
+
+    color: white;
+}
+
+
+
+
+
+/* CONTENIDO */
+
+.contenido-principal {
+
+    width: 90%;
+
+    margin: 0 auto;
+
+    padding: 1.25rem;
+
+    background-color: rgba(149, 205, 154, 0.75);
+
+    border-radius: 1rem;
+}
+
+
+/* TITULO SECCION */
+
+.titulo-seccion {
+
+    text-align: center;
+
+    color: #063f41;
+
+    font-size: 2rem;
+}
+
+
+/* FIRMA */
+
+.firma {
+
+    text-align: center;
+
+    color: #1d3557;
+}
+
+
+/* BLOQUES DE LECTURA */
+
+.bloque-lectura {
+
+    background-color: rgba(255, 255, 255, 0.65);
+
+    padding: 1.25rem;
+
+    border-radius: 1rem;
+}
+
+
+/* SUBTITULOS INTERNOS */
+
+h3 {
+
+    color: #1d3557;
+
+    /*border-left: 0.3rem solid #5b0a2f; no me gusta como quedo*/
+
+    padding-left: 0.6rem;
+}
+
+
+/* PARRAFOS */
+
+.parrafo1 {
+
+    line-height: 1.6;
+
+    text-align: justify;
+
+    font-style: oblique;
+}
+
+.parrafo2 {
+
+    line-height: 1.6;
+
+    text-align: justify;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+/* ARTICLE */
+
+article {
+
+    margin-top: 1.25rem;
+
+    padding: 1rem;
+
+    background-color: rgba(41, 101, 180, 0.25);
+
+    border-radius: 0.8rem;
+}
+
+
+/* GALERIA HORIZONTAL */
+
+.galeria {
+
+    text-align: center;
+
+    margin: 1.25rem 0;
+}
+
+.galeria img {
+
+    width: 28%;
+
+    margin: 0.6rem;
+
+    border-radius: 0.8rem;
+
+    vertical-align: top;
+}
+
+
+/* VIDEO */
+
+.video{
+
+    position: relative;
+
+    width: 100%;
+
+    padding-bottom: 56.25%;
+
+    height: 0;
+
+    overflow: hidden;
+
+    margin-top: 1.25rem;
+}
+
+
+/* ASIDE */
+
+.lateral {
+
+    width: 90%;
+
+    margin: 2rem auto;
+
+    padding: 1.25rem;
+
+    text-align: center;
+
+    background-color: rgba(22, 153, 185, 0.75);
+
+    border-radius: 1rem;
+}
+
+.lateral ul {
+
+    text-align: left;
+
+    display: inline-block;
+}
+
+
+/* FOOTER */
+
+.pie-pagina {
+
+    background-color: #1a4c9e;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 1.25rem;
+
+    margin-top: 2rem;
+}
+
+.pie-pagina address {
+
+    font-style: normal;
+
+    margin-top: 0.6rem;
+}
+
+.dos {
+    border-radius:2em;
+    transform: scale(2);
+    padding: 8rem     
+
+}
